@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    font-size: 16px;
+}
+
+.contact-button a {
+    background-color: #FFC107;
+    color: #333;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #007BFF, #0056b3);
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.button-container a {
+    padding: 10px 20px;
+    margin: 5px;
+    color: white;
+    background: #FFC107;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.testimonial-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.testimonial-card img {
+    border-radius: 50%;
+}
+
+/* Why Section */
+.why-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.benefit-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.benefit-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.benefit-card .icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #007BFF;
+}
